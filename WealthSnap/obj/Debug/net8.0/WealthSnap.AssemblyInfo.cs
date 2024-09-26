@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WealthSnap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11397719730f94316b0688341271f4d064c1c94d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e5f2ec13ce5d2cb600be2f331e7f290e36fb17b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WealthSnap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WealthSnap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj": {}
+    "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj": {}
   },
   "projects": {
-    "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj": {
+    "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
+        "projectUniqueName": "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
         "projectName": "WealthSnap",
-        "projectPath": "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
+        "projectPath": "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
         "packagesPath": "C:\\Users\\shrjai\\.nuget\\packages\\",
-        "outputPath": "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\obj\\",
+        "outputPath": "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

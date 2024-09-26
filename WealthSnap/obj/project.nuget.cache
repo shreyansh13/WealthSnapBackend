@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BRHb0Ww7Srw=",
+  "dgSpecHash": "+xyX37LPnwg=",
   "success": true,
-  "projectFilePath": "E:\\Personal\\Business\\Code\\Git\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
+  "projectFilePath": "E:\\Personal\\Business\\Code\\Git\\Backend2\\WealthSnapBackend\\WealthSnap\\WealthSnap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shrjai\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\shrjai\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
