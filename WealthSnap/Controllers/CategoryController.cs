@@ -12,10 +12,12 @@ namespace WealthSnap.Controllers
     public class CategoryController : Controller
     {
         private readonly ExpenseContext _context;
+        private readonly UserAuthService _userService;
 
-        public CategoryController(ExpenseContext context)
+        public CategoryController(ExpenseContext context, UserAuthService userService)
         {
             _context = context;
+            _userService = userService;
         }
 
         [HttpGet("get")]
@@ -69,6 +71,9 @@ namespace WealthSnap.Controllers
         [HttpPost("add")]
         public async Task<IActionResult> Add([FromBody] Category category)
         {
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            category.UserId = TokenHandler.GetUserIdFromToken(token);
+            //category.User = _userService.GetUserById(category.UserId);
             if (category == null)
             {
                 return BadRequest("Category data is null.");

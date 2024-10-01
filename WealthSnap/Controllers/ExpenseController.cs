@@ -49,7 +49,7 @@ namespace WealthSnap.Controllers
             return CreatedAtAction(nameof(GetExpenses), new { id = 1 }, expense);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateExpense(int id, [FromBody] Expense updatedExpense)
         {
             // Validate the ID
